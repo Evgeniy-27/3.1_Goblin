@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/49po2ra0vh0eev4n?svg=true)](https://ci.appveyor.com/project/Evgeniy-27/3-1-goblin)
+
 # 3.1_Goblin
 ### Игра с гоблинами
 
