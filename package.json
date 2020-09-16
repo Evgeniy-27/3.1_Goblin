@@ -1,0 +1,38 @@
+{
+  "name": "3.1_goblin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Evgeniy-27/3.1_Goblin.git",
+  "author": "Evgeniy-27 <Li.Evgen@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "terser-webpack-plugin": "^4.1.0",
+    "webpack-merge": "^5.1.3"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "babel": "babel src -d dist",
+    "lint": "eslint .",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "jest": "^26.4.2",
+    "mini-css-extract-plugin": "^0.11.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
